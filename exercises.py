@@ -117,6 +117,6 @@ def basic_calculator(a, b, operation):
             return None
         return a / b
     else:
-        return None  # unknown operation
+        return None  
 
 print('Exercise 9 Result:', basic_calculator(10, 5, "subtract"))
